@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  top: 33px;
+}
+
+.left img {
+  width: 170px;
+  filter: invert(20%);
+}
+
+.left div { 
+  text-align: center;
+  line-height: 0px;
+  font-size: 22px;
+}
+
+.mid {
+  /* border: 2px solid green; */
+  display: block;
+  width: 34%;
+  margin: 34px auto;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 35px;
+  /* border: 2px solid yellow; */
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li { 
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  font-family: 'Baloo Bhai', cursive;
+  margin: 0px 9px;
+  background-color:black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(31,30, 30);
+  width: 31%;
+  border-radius: 2px;
+}
+
+.container {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 106px 60px;
+  width: 30%;
+  border-radius: 28px;
+  padding: 75px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 23%;
+  margin: 20px auto;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 450px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 10px auto;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: 'Baloo Bhai', cursive;
+}
